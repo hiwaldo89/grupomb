@@ -579,8 +579,7 @@ var mapStyle = [
     }
 ];
 
-if(site.is_contact) {
-	var map;
+var map;
 	function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 20.072641, lng: -98.797384},
@@ -588,5 +587,5 @@ if(site.is_contact) {
           styles: mapStyle
         });
       }
-    window.initMap = initMap;
-}
+
+window.initMap = initMap;
