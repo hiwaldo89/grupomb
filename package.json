@@ -59,6 +59,8 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "isotope-layout": "^3.0.4",
+    "jquery": "^3.4.1",
+    "slick-carousel": "^1.8.0"
   }
 }

@@ -7,8 +7,8 @@
 # Isotope
 # Google maps
 --------------------------------------------------------------*/
-import "../vendor/isotope.js";
-import "../vendor/slick.js";
+import "../../../node_modules/isotope-layout/dist/isotope.pkgd";
+import "../../../node_modules/slick-carousel/slick/slick.js"
 import $ from 'jquery';
 
 	console.log('Made with love by bloom!');
