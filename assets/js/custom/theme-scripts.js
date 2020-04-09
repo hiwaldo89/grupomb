@@ -588,4 +588,5 @@ if(site.is_contact) {
           styles: mapStyle
         });
       }
+    window.initMap = initMap;
 }
