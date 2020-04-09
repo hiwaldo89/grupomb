@@ -9,8 +9,7 @@
 --------------------------------------------------------------*/
 import "../vendor/isotope.js";
 import "../vendor/slick.js";
-
-jQuery(document).ready(function( $ ) {
+import $ from 'jquery';
 
 	console.log('Made with love by bloom');
 
@@ -209,7 +208,7 @@ jQuery(document).ready(function( $ ) {
 			$('.grid').isotope({ filter: filterValue });
 		});
 	});
-});
+
 
 /*--------------------------------------------------------------
 # Google maps
