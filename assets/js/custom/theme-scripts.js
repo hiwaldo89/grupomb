@@ -584,7 +584,7 @@ if(site.is_contact) {
 	var map;
 	function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
+          center: {lat: 20.072641, lng: -98.797384},
           zoom: 8,
           styles: mapStyle
         });
