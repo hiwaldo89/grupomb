@@ -1,30 +1,4 @@
 /*!
- * Isotope PACKAGED v3.0.4
- *
- * Licensed GPLv3 for open source use
- * or Isotope Commercial License for commercial use
- *
- * http://isotope.metafizzy.co
- * Copyright 2017 Metafizzy
- */
-
-/*!
- * Isotope v3.0.4
- *
- * Licensed GPLv3 for open source use
- * or Isotope Commercial License for commercial use
- *
- * http://isotope.metafizzy.co
- * Copyright 2017 Metafizzy
- */
-
-/*!
- * Outlayer v2.1.0
- * the brains and guts of a layout library
- * MIT license
- */
-
-/*!
  * Sizzle CSS Selector Engine v2.3.4
  * https://sizzlejs.com/
  *
@@ -33,12 +7,6 @@
  * https://js.foundation/
  *
  * Date: 2019-04-08
- */
-
-/*!
- * getSize v2.0.2
- * measure size of elements
- * MIT license
  */
 
 /*!

@@ -60,6 +60,7 @@
   },
   "dependencies": {
     "isotope-layout": "^3.0.4",
+    "isotope-masonry-horizontal": "^2.0.1",
     "jquery": "^3.4.1",
     "slick-carousel": "^1.8.0"
   }
