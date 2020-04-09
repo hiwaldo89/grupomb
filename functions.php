@@ -46,7 +46,7 @@ function grupomb_scripts() {
 	wp_enqueue_script( 'grupomb_js', get_template_directory_uri() . '/js/theme-scripts.js', array('isotope'), '', true );
 
 	if(is_page('contacto')) {
-		wp_enqueue_script( 'google_maps', 'https://maps.googleapis.com/maps/api/js?key=' . get_field('google_maps_api_key', 'option') . '&callback=initMap', array('grupomb_js'), '', true );
+		wp_enqueue_script( 'google_maps', 'https://maps.googleapis.com/maps/api/js?key=' . get_field('google_maps_api_key', 'option') . '&callback=initMap', '', '', true );
 	}
 
 	wp_localize_script( 'grupomb_js', 'site', array(
