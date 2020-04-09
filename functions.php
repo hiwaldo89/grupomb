@@ -42,8 +42,7 @@ function grupomb_scripts() {
 	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js', array('jquery'), '', true );
 	wp_enqueue_script( 'fontawesome-solid-js', 'https://pro.fontawesome.com/releases/v5.1.0/js/solid.js', '', '', true );
 	wp_enqueue_script( 'fontawesome-js', 'https://pro.fontawesome.com/releases/v5.1.0/js/fontawesome.js', '', '', true );
-	// wp_enqueue_script( 'vendors-js', get_template_directory_uri() . '/js/vendor/vendors.min.js', array('jquery'), '', true );
-	wp_enqueue_script( 'isotope', 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js', '', '', true);
+	wp_enqueue_script( 'vendors-js', get_template_directory_uri() . '/js/vendor/vendors.js', array('jquery'), '', true );
 	wp_enqueue_script( 'grupomb_js', get_template_directory_uri() . '/js/theme-scripts.js', array('isotope'), '', true );
 
 	if(is_page('contacto')) {
