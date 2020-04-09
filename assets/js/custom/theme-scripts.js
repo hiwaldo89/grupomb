@@ -8,6 +8,7 @@
 # Google maps
 --------------------------------------------------------------*/
 import $ from 'jquery';
+import "slick-carousel/slick/slick.js";
 
 	console.log('Made with love by bloom!!');
 
