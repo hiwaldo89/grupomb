@@ -9,6 +9,7 @@
 --------------------------------------------------------------*/
 import $ from 'jquery';
 import "slick-carousel/slick/slick.js";
+import "isotope-layout";
 
 	console.log('Made with love by bloom!!');
 
