@@ -9,7 +9,9 @@
 --------------------------------------------------------------*/
 import $ from 'jquery';
 import "slick-carousel/slick/slick.js";
-import isotope from "isotope-layout";
+import Isotope from "isotope-layout";
+import jQueryBridget from 'jquery-bridget';
+jQueryBridget( 'isotope', Isotope, $ );
 
 	console.log('Made with love by bloom!!');
 
