@@ -10,7 +10,7 @@
 import "../../../node_modules/slick-carousel/slick/slick.js";
 import $ from 'jquery';
 
-	console.log('Made with love by bloom!');
+	console.log('Made with love by bloom!!');
 
 	/*--------------------------------------------------------------
 	# Navigation
