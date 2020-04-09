@@ -45,8 +45,7 @@ get_header(); ?>
 									<?php if(have_rows('datos_de_contacto')) : while(have_rows('datos_de_contacto')) : the_row(); ?>
 										<div class="mb-5">
 											<h2 class="h5"><?php the_sub_field('titulo'); ?></h2>
-											<a href="mailto:<?php the_sub_field('correo'); ?>"><?php the_sub_field('correo'); ?></a><br>
-											<a href="tel:<?php the_sub_field('telefono'); ?>"><?php the_sub_field('telefono'); ?></a>
+											<?php the_sub_field('contenido'); ?>
 										</div>
 									<?php endwhile; endif; ?>
 								</div>
