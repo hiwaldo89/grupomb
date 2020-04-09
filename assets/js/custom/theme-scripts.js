@@ -7,8 +7,8 @@
 # Isotope
 # Google maps
 --------------------------------------------------------------*/
-import "../vendor/isotope";
-import "../vendor/slick";
+import "../vendor/isotope.js";
+import "../vendor/slick.js";
 
 jQuery(document).ready(function( $ ) {
 
