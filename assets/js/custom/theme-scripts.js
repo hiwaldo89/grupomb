@@ -11,7 +11,7 @@ import "../vendor/isotope.js";
 import "../vendor/slick.js";
 import $ from 'jquery';
 
-	console.log('Made with love by bloom');
+	console.log('Made with love by bloom!');
 
 	/*--------------------------------------------------------------
 	# Navigation
@@ -580,12 +580,12 @@ var mapStyle = [
 ];
 
 var map;
-	function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 20.072641, lng: -98.797384},
-          zoom: 8,
-          styles: mapStyle
-        });
-      }
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 20.072641, lng: -98.797384},
+        zoom: 8,
+        styles: mapStyle
+    });
+}
 
 window.initMap = initMap;
