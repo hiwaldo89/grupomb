@@ -7,7 +7,7 @@
 # Isotope
 # Google maps
 --------------------------------------------------------------*/
-import "../../../node_modules/isotope-layout/dist/isotope.pkgd";
+import "../../../node_modules/isotope-layout/dist/isotope.pkgd.js";
 import "../../../node_modules/slick-carousel/slick/slick.js"
 import $ from 'jquery';
 
