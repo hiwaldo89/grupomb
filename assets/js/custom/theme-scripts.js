@@ -251,7 +251,7 @@ var mapStyle = [
                 "lightness": 40
             },
             {
-                "visibility": "off"
+                "visibility": "on"
             }
         ]
     },
@@ -260,7 +260,7 @@ var mapStyle = [
         "elementType": "labels.text.stroke",
         "stylers": [
             {
-                "visibility": "off"
+                "visibility": "on"
             },
             {
                 "color": "#000000"
@@ -585,7 +585,7 @@ var map;
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 20.072641, lng: -98.797384},
-        zoom: 8,
+        zoom: 14,
         styles: mapStyle
     });
     var marker = new google.maps.Marker({position: {lat: 20.072641, lng: -98.797384}, map: map});
